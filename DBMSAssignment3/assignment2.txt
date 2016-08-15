@@ -1,0 +1,42 @@
+USE LIS;
+
+/*display subject wise information of book purchased*/
+
+CREATE VIEW view_book_sub_title 
+AS (
+SELECT titles.title_id,
+ subjects.subject_id, 
+subjects.subject_nm 
+FROM titles 
+LEFT JOIN subjects 
+ON titles.subject_id = subjects.subject_id
+);
+
+
+SELECT view_book_sub_title.subject_id,
+view_book_sub_title.subject_nm, 
+COUNT(view_book_sub_title.subject_nm)
+AS noOfbooksPurchasedSoFar
+FROM view_book_sub_title 
+RIGHT JOIN books 
+ON view_book_sub_title.title_id = books.title_id 
+GROUP BY view_book_sub_title.subject_nm
+ORDER BY view_book_sub_title.subject_nm;
+
+/*display those book which can be return after two months*/
+
+SELECT * FROM book_issue where DATEDIFF(due_dt,issue_dt) > 60;
+
+/*display book more than minimum price of book*/
+CREATE VIEW title_view 
+AS 
+(SELECT titles.title_nm, 
+books.price 
+FROM books 
+LEFT JOIN titles 
+ON books.title_id = titles.title_id);
+
+SELECT * FROM title_view 
+WHERE title_view.price > 
+(SELECT MIN(price) 
+FROM books);
