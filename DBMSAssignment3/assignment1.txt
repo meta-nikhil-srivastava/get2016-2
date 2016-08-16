@@ -1,4 +1,4 @@
-USE LIS;
+USE library;
 /*display information of those books which has been issued for moew than 2 months */
 INSERT INTO book_issue(issue_dt,accession_no,member_id,due_dt)
 VALUES ('2014/08/02',2,4,'2014/011/29');
