@@ -20,7 +20,6 @@ public class Menu
 		do {
 
 			BufferedReader buffer = new BufferedReader(new FileReader("D:\\workspace\\OOPs\\src\\session4\\menulist.txt"));
-			//D:\\workspace\\OOPs\\src\\session4\\menulist.txt
 			String thisLine = "";
 			String[] commaSeparatedValues;
 			System.out.println("Main Menu: ");
