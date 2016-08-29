@@ -1,0 +1,115 @@
+
+#outerMargin{
+	margin: 2% 2% 0% 2%;
+	border-style: solid;
+	background-color: #cbb6c1;
+	float:left;
+	width:96%;
+}
+
+#header{
+	background-color: #80aaff;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+#pageLink{
+	background-color: #c0c0c0;
+	
+}
+
+#pageLink h3{
+	display: inline;
+	padding: 0.5%;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover {
+	background-color: #80aaff;
+}
+
+#leftdiv{
+	float: left;
+	width: 20%;
+	margin: 2%;
+	
+}
+
+h2{
+	background-color: #80aaff; 	
+}
+
+#verticalMenu{
+	background-color: #d6d6c2; 
+}
+
+
+#newBlock{
+	background-color: #d6d6c2;
+}
+
+
+p{
+	font-size: 18px;
+	text-align: left;
+}
+
+#centerDiv{
+	float: left;
+	width: 45%;
+	margin: 2%;
+	
+}
+
+img{
+	width:100%;
+}
+
+#rightDiv{
+	float: left;
+	width: 20%;
+	margin: 2%;
+}
+
+#search{
+	background-color: #d6d6c2;
+	padding: 5px;
+}
+
+#category{
+	background-color: #d6d6c2;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+#category a{
+	display: block;
+}
+
+#Archives{
+	background-color: #d6d6c2;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+#Archives a{
+	display: block;
+}
+
+#footerMargin{
+	margin: 0% 2% 2% 2% ;
+	background-color: #dedade;
+	border-style: solid;
+	float:left;
+	width:96%;
+}
+
+footer {
+	float:left;
+	margin-left:45%;
+	text-align: center;
+}
