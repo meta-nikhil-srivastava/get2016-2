@@ -1,0 +1,188 @@
+body {
+	margin: 6%;
+}
+
+#titlebar{
+	background-color: #244276;
+	float: left;
+	padding: 1%;
+	width: 100%;
+}
+
+#name{
+	float: left;
+	color: #ffffff;
+}
+
+#pagelink{
+	float:none;
+	text-align: right;
+}
+
+#pagelink a{
+	color: #ffffff;
+	padding: 0.5%;	
+}
+
+#contentdiv{
+	background-color: #0a92f5;
+	float: left;
+	padding: 1% 1% 10% 1%;
+	width: 100%;
+}
+
+#textdiv{
+	display: block;
+	float: left;
+	border-style: solid;
+	border-color: white;
+	text-align: center;
+	margin: 7% 25% 0% 30%;
+	padding: 3% 10%;
+	font-size: 35px;
+	color: white;
+	font: bold;
+}
+
+#contentdiv p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#contentdiv button{
+	color: #0a92f5;
+	display: block;
+	float: left;
+	margin: 2% 40% 0% 45%;
+	padding: 1%;
+}
+
+#discribediv{
+	background-color: #ffffff;
+}
+
+#discribediv p{
+	font-family: sans-serif;
+	font-size: 17px;
+	text-align: center;
+	color: black;
+	float:left;
+	width:100%;
+	margin-top: 5%;
+}
+
+.icons{
+	float: left;
+	width: 23%;
+    margin: 10px;
+	padding-bottom: 5%;
+}
+
+.icons img{
+	padding-top:2.5%;
+	float: left;
+	
+}
+
+.icons h1{
+	color: #0a92f5;
+	font-size: 15px;
+}
+
+.icons p1{
+	line-height:20px;
+	font-family: sans-serif;
+	text-align: left;
+	color: #000000;
+	font-size:12px;
+}
+
+#options{
+	float: left;
+	width:84%;
+	background-color: #314160;
+	padding-top: 3%;
+	padding-right:3%;
+	padding-bottom: 3%;
+	padding-left:15%;
+	text-align: left;
+	color: #ffffff;
+}
+
+#imgdiv img{
+	float: left;
+	display:inline;
+	margin-right: 2%;
+	height: 80px;
+}
+
+#options h1{
+	text-align: left;
+	font-size: 18px;
+	font-family:serif;
+}
+
+#options p{
+	text-align: left;
+	font-size: 15px;
+}
+
+#lowerbox {
+	display: block;
+	width: 100%;
+}
+
+.clear{
+ clear: both;	
+}
+
+#lowerbox h1 {
+	padding-top: 2%;
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+}
+
+#formdiv {
+	padding: 10px;
+	float: left;
+	display: inline-block;
+	width: 45%;
+}
+
+#formdiv button {
+	margin-top: 10px;
+	padding: 8px;
+	background-color: #1a75ff;
+	border-radius: 10px;
+	color: white;
+	width: 80px;
+	padding: 8px;
+}
+
+label{
+	display: block;
+	padding: 3px;
+}
+
+input {
+	display: block;
+	padding: 3px;
+}
+
+#foot {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding-top:2%;
+	height: 20px;
+	background-color: #000000;
+	color: white;
+	padding: 4px;
+	text-align: center;
+}
