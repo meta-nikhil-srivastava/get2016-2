@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin: 3%;
+	font-family: serif;
+	background-color: #ccc;
+	overflow: hidden;
+}
+
+#header {
+	padding-top: 2%;
+	padding-left: 2%;
+	font-size: 30px;
+}
+
+#section {
+	padding: 1% 10%;
+}
+
+span {
+	border: solid;
+	border-width: 1px;
+	height: 100%;
+	border-radius: 4px 0px 0px 4px;
+	padding: 5px;
+	border-right: none;
+	float: left;
+}
+
+input, textarea {
+	border: solid;
+	border-width: 1px;
+	height: 100%;
+	border-radius: 0px 4px 4px 0px;
+	padding: 5px;
+	width: 40%;
+	float: left;
+}
+
+.divTable select {
+	border: solid;
+	border-width: 1px;
+	border-radius: 0px 4px 4px 0px;
+	padding: 5px;
+	width: 42%;
+	height: 140%;
+}
+
+.divTable {
+	display: table;
+	width: 100%;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+	display: table-cell;
+	padding: 10px 0 10px 10px;
+}
+
+.divTableCell p {
+	text-align: right;
+	font-weight: 900;
+	padding: 5px 10px;
+}
+
+#submit {
+	height:30px;
+	color:white;
+	background-color:orange;
+	font-size:13px; 
+	border-radius:10px;
+	float: left;
+	border-color: #ff8080;
+	padding: 10px 10px 20px 10px;
+}
+
+.divTable input:invalid, textarea:invalid
+{
+	border:1px outset red;
+}
