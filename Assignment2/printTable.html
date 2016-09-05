@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table</title>
+		<script type="text/javascript" src="table.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/Style2.css">
+	</head>
+	<body>
+		<header id="header">Print Mathematical Table</header>
+		<section>
+			<div id="labels">
+			<label>Enter Number whose table to be printed</label></div>
+			
+			<div id="inputs">
+			<input type="text" id="val" placeholder="Enter number" required /><br /></div>
+			
+			<div class="clear"></div>
+			<div id="buttons">
+			<button onclick="printTable(parseInt(document.getElementById('val').value.trim()))">Print Table</button>
+			</div>
+		</section>
+		<footer id="footer"><p id="result"></p></footer>
+	</body>
+</html>

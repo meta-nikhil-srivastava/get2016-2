@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pyramid</title>
+		<script type="text/javascript" src="pyramid.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/Style2.css">
+	</head>
+	<body>
+		<header id="header">Build Pyramid Using Loops</header>
+		<section>
+			<div id="labels">
+			<label>Enter Number of rows </label></div>
+			
+			<div id="inputs">
+			<input type="text" id="val" placeholder="Enter number" required /><br /></div>
+			
+			<div class="clear"></div>
+			<div id="buttons">
+			<button onclick="PyramidUsingFor(parseInt(document.getElementById('val').value.trim()))">Using For Loop</button>
+			<button onclick="PyramidUsingWhile(parseInt(document.getElementById('val').value.trim()))">Using While Loop</button>
+			<button onclick="PyramidUsingDOWhile(parseInt(document.getElementById('val').value.trim()))">Using Do-While Loop</button></div>
+		</section>
+		<footer id="footer"><p id="result"></p></footer>
+	</body>
+</html>

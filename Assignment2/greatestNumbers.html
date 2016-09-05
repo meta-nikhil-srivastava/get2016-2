@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pattern</title>
+		<script type="text/javascript" src="greatest.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+	</head>
+	<body>
+		<header id="header">Find Largest Number</header>
+		<section>
+			<div id="labels">
+			<label>First Number </label><br />
+			<label>Second Number </label><br />
+			<label>Third Number </label><br /></div>
+			<div id="inputs">
+			<input type="text" id="val1" placeholder="Enter number" required /><br />
+			<input type="text" id="val2" placeholder="Enter number" required /><br />
+			<input type="text" id="val3" placeholder="Enter number" required /><br /></div>
+			<div class="clear"></div>
+			<button onclick="findgreatest(parseInt(document.getElementById('val1').value.trim()),parseInt(document.getElementById('val2').value.trim()),parseInt(document.getElementById('val3').value.trim()));">Largest</button>
+		</section>
+		<footer id="footer"><p id="result"></p></footer>
+	</body>
+</html>
