@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Drop Down Alert</title>
+		<script type="text/javascript" src="JS/dropDown.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/style3.css">
+	</head>
+	
+	<body>
+		<section>
+			<p>Select One Country</p>
+			<div id="option">
+			<input type="radio"  name="Country" value="India" checked="checked"/>India
+			 <select name="IndianCity" id="IndianCity">
+			  <option value="Jaipur">Jaipur</option>
+			  <option value="Ajmer">Ajmer</option>
+			  <option value="Kota">Kota</option>
+			  <option value="Udaipur">Udaipur</option>
+			</select></div>
+			
+			<div id="option">
+			<input type="radio"  name="Country" value="England"/>England
+			 <select name="BritishCity" id="BritishCity">
+			  <option value="London">London</option>
+			  <option value="Edinburgh">Edinburgh</option>
+			  <option value="Oxford">Oxford</option>
+			  <option value="Bristol">Bristol</option>
+			</select></div>
+			<div><button onclick="SelectedItem()">Done</button></div>
+			<div id="result"></div>
+		</section>
+	</body>
+</html>
