@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:#666633; 
+	font-family: serif;
+}
+
+#header{
+	margin-left: 5%;
+	margin-top: 5%;
+	font-weight:bold; 
+	font-size: 40px;
+	color: #cccc99;
+}
+
+section {
+	margin-left: 5%;
+	color: #cccc99;
+}
+
+section #labels{
+	float: left;
+	line-height:40px;
+	padding: 2% 2% 2% 0;
+	font-size: 20px;
+}
+
+section #inputs{
+	float: left;
+	line-height:40px;
+	font-size: 20px;
+	padding: 2%;
+}
+
+.clear{
+	clear: both;	
+}
+
+#footer{
+	color: #cccc99;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 20px;
+}
+
+button{
+	border: none;
+	font-size: 20px;
+	color: #444;
+	margin: 2%;
+	padding: 5px;
+	border-radius: 5px;
+}
