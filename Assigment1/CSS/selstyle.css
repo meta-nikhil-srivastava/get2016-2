@@ -1,0 +1,21 @@
+*{
+	display: block;
+}
+
+title{
+	display: none;	
+}
+
+.msgdiv, .textdiv, .buttondiv, .imgdiv, .paradiv, .boxerror, .spandiv{
+	border: solid 2px;
+	margin: 20px;
+}
+
+.msgdiv *, .textdiv *, .paradiv *, .boxerror *, .spandiv *{
+	margin: 20px;
+}
+
+.buttondiv * , .imgdiv *{
+	margin: 20px;
+	display: inline;
+}
