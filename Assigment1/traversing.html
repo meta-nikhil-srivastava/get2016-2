@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Traversing Elements</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="JS/traversing.js"></script>
+		
+		
+		<style>
+			.ancestors * { 
+			    display: block;
+			    border: 2px solid lightgrey;
+			    color: lightgrey;
+			    padding: 5px;
+			    margin: 15px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h2>Traversing Elements in jQuery</h2>
+		
+		<div class="ancestors" >
+		 	<div style="width:500px;">div (great-grandparent)
+			    <div>div (grandparent) 
+			     	<span> span (direct parent)
+			     		<h3>h3 (sibling)</h3>
+			     		<h4>h4 (element)
+			        		<p>p (direct child)
+			        			<span>span (grand child)</span></p></h4>
+			        </span>
+			    </div> 
+		  </div>
+		</div>
+	  
+	  	<div class="buttons">
+	  		<button class="button1" id="selparent">Select parent of element</button>
+			<button class="button2" id="selparents">select all parents of element</button>
+			<button class="button3" id="selparentsUntil">select all parents of element until div</button>
+			<button class="button4" id="selchild">select direct children of element</button>
+			<button class="button5" id="selchildren">select all children of element</button>
+			<button class="button6" id="selsibling">select all siblings of element</button>
+	  	</div>
+	  
+	</body>
+</html>

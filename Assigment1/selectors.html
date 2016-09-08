@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 	<title>Selectors</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="JS/selectors.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/selstyle.css">
+	</head>
+	
+	<body>
+		
+		<div class="msgdiv">
+			<h3>Question 1</h3>
+			<span class="message">This is first span content with id 'message'.</span>
+			<span class="message">This is second span content with id 'message'.</span>
+			<span class="notmessage">This is span content with id 'not message'.</span>
+			<button class="question" id="selSpanClassMsg">Select all span having class= message</button>	
+		</div>
+		
+		<div class="buttondiv">
+			<h3>Question 3</h3>
+			<button id="button1">Button1</button>
+			<button id="button2">Button2</button>
+			<button id="button3">Button3</button><br />
+			<button class="question" id="selButton">Select all button in document</button>	
+		</div>
+		
+		<div class="imgdiv">
+			<h3>Question 4</h3>
+			<img src="images/hello1.jpeg" alt="hello">
+			<img src="images/goodmorning.jpeg" alt="goodmoring">
+			<img src="images/hello2.jpeg" alt="hello"><br />
+			<button class="question" id="selImgAltHello">Select all images in document having alt text =hello</button>	
+		</div>
+		
+		<div class="textdiv">
+			<h3>Question 5-6</h3>
+			<div id="myDiv"><input type="text" name="txta" placeholder="Text Box  in myDiv Id starting from 'txt'"/></div>
+			<div id="notmyDiv"><input type="text" name="txtb" placeholder="Text Box in not myDiv Id starting from 'txt'"/></div>
+			<div id="myDiv"><input type="text" name="idtxt" placeholder="Text Box in myDiv Id starting from 'id'"/></div>
+			<button class="question" id="selTextIdmyDiv">Selects all TEXT BOXES under a div having Id = myDiv</button>
+			<button class="question" id="selTextNametxt">Selects all TEXT BOXES with name starting by = txt</button>
+		</div>
+		
+		<div class="paradiv">
+			<h3>Question 7</h3>
+			<p class="box">The content is in paragraph in class box</p>
+			<p class="box">The content is in paragraph in class box</p>
+			<p class="notbox">The content is in paragraph in class notbox</p>
+			<p class="notbox">The content is in paragraph in class notbox</p>
+			<button class="question" id="selparaNotbox">Selects all PARAGRAPHS element, not having class= box</button>
+		</div>
+		
+		<div class="boxerror">
+			<h3>Question 2, 8 ,9</h3>
+			<div class="box">Content in div box</div>
+			<div class="error">Content in div error</div>
+			<div class="box error">Content in div error and box.</div>
+			<button class="question" id="seldivClassBox">Selects first DIV in a document that has class= box</button>
+			<button class="question" id="seldivEitherBoxOrError">Selects all the DIVS having either box or error class.</button>
+			<button class="question" id="seldivBothBoxAndError">Selects all the DIVS having both box and error class</button>
+		</div>
+		
+		<div class="spandiv">
+			<h3>Question 10</h3>
+			<div id="myDiv">
+			<span class="info">Span class info inside div id myDiv</span></div>
+			<div id="myDiv">
+			<span class="notinfo">Span class notinfo inside div id myDiv</span></div>
+			<div id="myDiv">
+			<span class="info">Span class info inside div id myDiv</span></div>
+			<button class="question" id="selSpanInDivInfo">Find all the SPAN having info class in a DIV with id = myDiv</button>
+		</div>
+
+		
+	</body>
+</html>
