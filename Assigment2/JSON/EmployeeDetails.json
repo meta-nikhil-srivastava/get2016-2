@@ -1,0 +1,29 @@
+{
+    "Ayushi" : {
+        "Name" : "Ayushi",
+        "Email" : "ayushi.agarwal@metacube.com",
+        "DOB" : "04/10/1993",
+        "Address" : "Chandpole"
+    },
+    
+    "Tripati" : {
+        "Name" : "Tripati",
+        "Email" : "tripati.agarwal@gmail.com",
+        "DOB" : "30/08/1998",
+        "Address" : "Vaishali Nagar"
+    },
+    
+    "Amita" : {
+        "Name" : "Amita",
+        "Email" : "amita.sharma@gmail.com",
+        "DOB" : "13/03/1994",
+        "Address" : "Agra Road"
+    },
+    
+    "Riya" : {
+        "Name" : "Riya",
+        "Email" : "riya.sharma@gmail.com",
+        "DOB" : "14/06/1995",
+        "Address" : "Sikar Road"
+    }
+}
