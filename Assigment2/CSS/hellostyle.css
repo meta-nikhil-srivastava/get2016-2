@@ -1,0 +1,18 @@
+
+.hello{
+	margin: 20px;
+	border: solid;
+	border-color: red;
+	font-size: 20px;
+	padding: 10px;
+	width: 20%;
+}
+
+.hi{
+	margin: 20px;
+	border: solid;
+	border-color: blue;
+	font-size: 20px;
+	padding: 10px;
+	width: 20%;
+}
